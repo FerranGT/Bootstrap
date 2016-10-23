@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<style>
+		* {
+			border:1px solid red;
+			box-sizing: border-box;
+		}
+		ul li:first-child, dl > *:first-child, .flexy-block > div:first-child {
+			width: 30%;
+			vertical-align: top;
+		}
+		ul li:last-child, dl > *:last-child, .flexy-block > div:last-child  {
+			width: 70%;
+		}
+
+		dl > * { float:left; }
+
+		.flexy-block {
+			display: flex;
+		}
+
+
+	</style>
+</head>
+<body>
+	<h1>My Project</h1>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+
+				<ul class="list-inline">
+					<li>1999-2015</li><!--
+					--><li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero eaque nostrum, mollitia est dolores officiis animi, quia facilis veniam totam dicta veritatis autem corporis optio ipsum vero debitis nulla. Error, expedita optio, quod deserunt ipsa nobis temporibus maiores iste quasi voluptatibus, corporis, quibusdam iusto! Quibusdam perspiciatis fugit officiis maxime consequuntur.</li>
+				</ul>
+
+				<dl>
+					<dt>1999-2015</dt><!--
+					--><dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero eaque nostrum, mollitia est dolores officiis animi, quia facilis veniam totam dicta veritatis autem corporis optio ipsum vero debitis nulla. Error, expedita optio, quod deserunt ipsa nobis temporibus maiores iste quasi voluptatibus, corporis, quibusdam iusto! Quibusdam perspiciatis fugit officiis maxime consequuntur.</dd>
+				</dl>
+
+				<div class="row">
+					<div class="col-xs-4">
+						<p>1999-2015</p>
+					</div>
+					<div class="col-xs-8">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed inventore eos asperiores ipsa error esse obcaecati voluptates quod, est iste. Magnam dolore eos consequatur? Sed facere minus eius atque deserunt ad, ut doloremque eaque quo repellat quis labore accusamus voluptates quasi repudiandae tempora, suscipit quibusdam quidem nisi excepturi alias! Nulla.</p>
+					</div>
+				</div>
+
+				<div class="flexy-block">
+					<div>
+						<p>1999-2015</p>
+					</div>
+					<div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed inventore eos asperiores ipsa error esse obcaecati voluptates quod, est iste. Magnam dolore eos consequatur? Sed facere minus eius atque deserunt ad, ut doloremque eaque quo repellat quis labore accusamus voluptates quasi repudiandae tempora, suscipit quibusdam quidem nisi excepturi alias! Nulla.</p>
+					</div>
+				</div>
+
+			</div>
+			<div class="col-md-6"></div>
+		</div>
+	</div>
+</body>
+</html>

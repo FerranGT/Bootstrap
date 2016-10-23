@@ -1,0 +1,77 @@
+$johndoe-color: #1c77ba;
+$grey-block: #ccc;
+
+body {
+	background: $grey-block;
+}
+
+.main-container {
+	background: white;
+	border: 1px solid grey;
+	margin-top: 100px;
+}
+.john{
+	color: $johndoe-color;
+}
+h3{
+	color: $johndoe-color;
+}
+.img-banner{
+	margin-top: -50px;
+	height: 100px;
+}
+.contact-text{
+	font-weight: bold; 
+}
+.list-contact{
+	.list-contact1{
+		background-image: url(../img/phone.png);
+		background-repeat: no-repeat;
+		height: 35px;
+		padding-left: 45px;
+	}
+	.list-contact2{
+		background-image: url(../img/email.png);
+		background-repeat: no-repeat;
+		height: 35px;
+		padding-left: 45px;
+	}
+	.list-contact3{
+		background-image: url(../img/facebook.png);
+		background-repeat: no-repeat;
+		height: 35px;
+		padding-left: 45px;
+	}
+	.list-contact4{
+		background-image: url(../img/twitter.png);
+		background-repeat: no-repeat;
+		height: 35px;
+		padding-left: 45px;
+	}
+}
+#second-container{
+	margin-top: 50px;
+}
+p.second-line{
+	margin-top: -7px;
+}
+.skills{
+	width: 45%;
+}
+.logolist1{
+	max-width: 100%;
+	//margin-left: -25px;
+}
+.logolist2{
+	max-width: 100%;
+	//margin-left: -85px;
+}
+footer{
+	background: #345978;
+	color: white;
+}
+
+
+
+
+

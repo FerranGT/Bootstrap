@@ -1,0 +1,97 @@
+/* line 4, /Users/Judith/BootCamp/my-first-projects/Bootstrap/02-portfolio/sass/style.scss */
+body {
+  background: #ccc;
+}
+
+/* line 8, /Users/Judith/BootCamp/my-first-projects/Bootstrap/02-portfolio/sass/style.scss */
+.main-container {
+  background: white;
+  border: 1px solid grey;
+  margin-top: 100px;
+}
+
+/* line 13, /Users/Judith/BootCamp/my-first-projects/Bootstrap/02-portfolio/sass/style.scss */
+.john {
+  color: #1c77ba;
+}
+
+/* line 16, /Users/Judith/BootCamp/my-first-projects/Bootstrap/02-portfolio/sass/style.scss */
+h3 {
+  color: #1c77ba;
+}
+
+/* line 19, /Users/Judith/BootCamp/my-first-projects/Bootstrap/02-portfolio/sass/style.scss */
+.img-banner {
+  margin-top: -50px;
+  height: 100px;
+}
+
+/* line 23, /Users/Judith/BootCamp/my-first-projects/Bootstrap/02-portfolio/sass/style.scss */
+.contact-text {
+  font-weight: bold;
+}
+
+/* line 27, /Users/Judith/BootCamp/my-first-projects/Bootstrap/02-portfolio/sass/style.scss */
+.list-contact .list-contact1 {
+  background-image: url(../img/phone.png);
+  background-repeat: no-repeat;
+  height: 35px;
+  padding-left: 45px;
+}
+
+/* line 33, /Users/Judith/BootCamp/my-first-projects/Bootstrap/02-portfolio/sass/style.scss */
+.list-contact .list-contact2 {
+  background-image: url(../img/email.png);
+  background-repeat: no-repeat;
+  height: 35px;
+  padding-left: 45px;
+}
+
+/* line 39, /Users/Judith/BootCamp/my-first-projects/Bootstrap/02-portfolio/sass/style.scss */
+.list-contact .list-contact3 {
+  background-image: url(../img/facebook.png);
+  background-repeat: no-repeat;
+  height: 35px;
+  padding-left: 45px;
+}
+
+/* line 45, /Users/Judith/BootCamp/my-first-projects/Bootstrap/02-portfolio/sass/style.scss */
+.list-contact .list-contact4 {
+  background-image: url(../img/twitter.png);
+  background-repeat: no-repeat;
+  height: 35px;
+  padding-left: 45px;
+}
+
+/* line 52, /Users/Judith/BootCamp/my-first-projects/Bootstrap/02-portfolio/sass/style.scss */
+#second-container {
+  margin-top: 50px;
+}
+
+/* line 55, /Users/Judith/BootCamp/my-first-projects/Bootstrap/02-portfolio/sass/style.scss */
+p.second-line {
+  margin-top: -7px;
+}
+
+/* line 58, /Users/Judith/BootCamp/my-first-projects/Bootstrap/02-portfolio/sass/style.scss */
+.skills {
+  width: 45%;
+}
+
+/* line 61, /Users/Judith/BootCamp/my-first-projects/Bootstrap/02-portfolio/sass/style.scss */
+.logolist1 {
+  max-width: 100%;
+}
+
+/* line 65, /Users/Judith/BootCamp/my-first-projects/Bootstrap/02-portfolio/sass/style.scss */
+.logolist2 {
+  max-width: 100%;
+}
+
+/* line 69, /Users/Judith/BootCamp/my-first-projects/Bootstrap/02-portfolio/sass/style.scss */
+footer {
+  background: #345978;
+  color: white;
+}
+
+/*# sourceMappingURL=../css/style.map */
